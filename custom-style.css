@@ -1,0 +1,128 @@
+@keyframes move-left-right {
+    0% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+.index-page {
+    background-image: url('./img/dots.png');
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+.index-page,
+.page-header {
+    height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-center {
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 35vh 0;
+    text-align: center;
+}
+
+.index-page .squares {
+    animation: move-left-right 1s infinite;
+    background: #2424fc;
+    background: -webkit-linear-gradient(0deg, #2424fc 0%, #4343fc 100%);
+    background: -o-linear-gradient(0deg, #2424fc 0%, #4343fc 100%);
+    background: -moz-linear-gradient(0deg, #2424fc 0%, #4343fc 100%);
+    background: linear-gradient(0deg, #2424fc 0%, #4343fc 100%);
+    position: absolute;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.index-page .squares.square1 {
+    animation: move-left-right 4s infinite;
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+    left: 3%;
+    top: -21%;
+    z-index: -1;
+}
+
+.index-page .squares.square2 {
+    animation: move-left-right 6s infinite;
+    height: 400px;
+    width: 400px;
+    opacity: 0.4;
+    right: 2%;
+    top: -12%;
+    z-index: -1;
+}
+
+.index-page .squares.square3 {
+    animation: move-left-right 5s infinite;
+    height: 200px;
+    width: 200px;
+    opacity: 0.1;
+    left: -5%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+.index-page .squares.square4 {
+    animation: move-left-right 10s infinite;
+    height: 100px;
+    width: 100px;
+    opacity: 0.9;
+    right: 27%;
+    top: 70%;
+    z-index: -1;
+}
+
+.index-page .squares.square5 {
+    animation: move-left-right 6s infinite;
+    height: 250px;
+    width: 250px;
+    opacity: 0.1;
+    left: 32%;
+    bottom: 29%;
+    z-index: -1;
+}
+
+.index-page .squares.square6 {
+    animation: move-left-right 9s infinite;
+    left: 10%;
+    top: 35%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.index-page .squares.square7 {
+    animation: move-left-right 3s infinite;
+    width: 300px;
+    height: 300px;
+    right: 1.5%;
+    bottom: 0%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.path {
+    opacity: 0.02;
+    z-index: -1;
+    max-width: 65%;
+    margin-left: 60vw;
+}
