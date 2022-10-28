@@ -164,6 +164,9 @@ footer {
     margin-top: 20vh;
 }
 
+.content-center{
+    font-family: 'Roboto Mono', monospace;
+}
 .main {
     margin: auto;
     width: 80vw;
