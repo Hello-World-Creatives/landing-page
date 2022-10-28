@@ -163,3 +163,44 @@ section.content {
 footer {
     margin-top: 20vh;
 }
+
+.main {
+    margin: auto;
+    width: 80vw;
+    color: white;
+}
+
+section.content {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    text-align: justify;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 4s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+footer {
+    margin-top: 20vh;
+}
+
+.content-center{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Change Selection Text Color When Highlighting */ 
+::-moz-selection { background-color: #476f30; 
+color: #fff; } 
+::selection { background-color: #05011a; 
+color: #fff; }
