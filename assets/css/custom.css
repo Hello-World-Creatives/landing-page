@@ -126,3 +126,13 @@
     max-width: 65%;
     margin-left: 60vw;
 }
+
+.content-center{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Change Selection Text Color When Highlighting */ 
+::-moz-selection { background-color: #476f30; 
+color: #fff; } 
+::selection { background-color: #05011a; 
+color: #fff; }
