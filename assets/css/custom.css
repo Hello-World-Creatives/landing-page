@@ -137,6 +137,7 @@ body{
 .main {
     margin: auto;
     width: 80vw;
+    color: white;
 }
 
 section.content {
