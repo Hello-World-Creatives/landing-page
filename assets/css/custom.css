@@ -174,3 +174,12 @@ footer {
 color: #fff; } 
 ::selection { background-color: #05011a; 
 color: #fff; }
+
+.custom-bg-color{
+    background-color: rgba(19, 65, 189, 0.854);
+}
+
+.footer-logo {
+    width: 70px;
+    padding: 5px;
+}
