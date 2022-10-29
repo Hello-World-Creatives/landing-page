@@ -12,6 +12,11 @@
     }
 }
 
+body{
+    padding: 0;
+    margin: 0;
+}
+
 .index-page {
     background-image: url('../img/dots.png');
     background-size: contain;
@@ -125,4 +130,47 @@
     z-index: -1;
     max-width: 65%;
     margin-left: 60vw;
+    overflow: hidden;
+    position: absolute;
 }
+
+.main {
+    margin: auto;
+    width: 80vw;
+    color: white;
+}
+
+section.content {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    text-align: justify;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-40%);
+    transition: all 2500ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+footer {
+    margin-top: 20vh;
+}
+
+.content-center{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Change Selection Text Color When Highlighting */ 
+::-moz-selection { background-color: #476f30; 
+color: #fff; } 
+::selection { background-color: #05011a; 
+color: #fff; }
