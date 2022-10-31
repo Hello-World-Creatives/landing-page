@@ -172,5 +172,14 @@ footer {
 /* Change Selection Text Color When Highlighting */ 
 ::-moz-selection { background-color: #476f30; 
 color: #fff; } 
-::selection { background-color: #150130; 
-color: #ffffff; }
+::selection { background-color: #05011a; 
+color: #fff; }
+
+.custom-bg-color{
+    background-color: rgba(19, 65, 189, 0.854);
+}
+
+.footer-logo {
+    width: 70px;
+    padding: 5px;
+}
