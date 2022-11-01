@@ -183,3 +183,20 @@ color: #fff; }
     width: 70px;
     padding: 5px;
 }
+
+.download-btn {
+    background-color: #001752ab;
+    color: rgb(155, 155, 155);
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
+}
+
+.download-btn:hover {
+    background-color: #020094af;
+    transition: 0.5s;
+    color: rgb(138, 138, 138);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
+}
