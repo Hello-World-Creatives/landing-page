@@ -125,11 +125,40 @@ body{
     z-index: -1;
 }
 
-.path {
+.path-1 {
     opacity: 0.02;
     z-index: -1;
     max-width: 65%;
+    margin-top: 5vh;
     margin-left: 60vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.path-4 {
+    opacity: 0.02;
+    z-index: -1;
+    max-width: 85%;
+    margin-left: -35vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.path-2 {
+    opacity: 0.02;
+    z-index: -1;
+    max-width: 25%;
+    margin-top: 70vh;
+    margin-left: -9vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.path-5 {
+    opacity: 0.02;
+    z-index: -1;
+    max-width: 65%;
+    margin-left: 50vw;
     overflow: hidden;
     position: absolute;
 }
