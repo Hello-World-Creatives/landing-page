@@ -711,6 +711,9 @@ progress {
   .container-sm {
     max-width: 960px
   }
+  .navbar {
+    height: 80px;
+  }
 }
 
 @media(min-width:1200px) {
