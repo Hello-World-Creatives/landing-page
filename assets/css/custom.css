@@ -225,11 +225,3 @@ color: black; }
     color: rgb(138, 138, 138);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);
 }
-
-.e-mail, .telno-1, .telno-2, .telno-3 {
-    color: white;
-}
-
-.e-mail:hover, .telno-1:hover, .telno-2:hover, .telno-3:hover {
-    color: rgb(221, 221, 221);
-}
