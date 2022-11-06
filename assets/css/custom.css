@@ -170,17 +170,27 @@ body{
 }
 
 section.content {
+    margin: auto;
     display: grid;
     place-items: center;
     align-content: center;
+    max-width: 50vw;
     min-height: 100vh;
+    min-width: 40vw;
     text-align: justify;
 }
 
-.hidden {
+.d-right {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-40%);
+    transition: all 2500ms;
+}
+
+.d-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(10%);
     transition: all 2500ms;
 }
 
