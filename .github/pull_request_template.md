@@ -13,10 +13,10 @@ The purpose of this Pull Request is to fix #<issue-number>
   
 ### Preview Link
 <!-- First, go to your forked repository. Then click on the settings tab and click the pages tab in the settings. After that go to the Branch section in the pages tab and click the 'None' dropdown and there you can see the branches you pushed the changes. Select the necessary branch and click save. -->
-<!---  Once you submit the PR, replace "YOUR_USERNAME" with your GitHub Account Username. -->
+<!---  Once you submit the PR, replace "YOUR_USERNAME" with your GitHub Account Username. And replace the "FORKED_REPO_NAME" with your forked repository name. -->
 <!---  ex: https://care-x.github.io/landing-page/ -->
 <!---  Feel free to modify the link with the exact path -->
-https://YOUR_USERNAME.github.io/landing-page/
+https://YOUR_USERNAME.github.io/FORKED_REPO_NAME/
 
 ##  Checklist
 - [x] This PR doesn't commit any keys, passwords, tokens, usernames, or other secrets.
