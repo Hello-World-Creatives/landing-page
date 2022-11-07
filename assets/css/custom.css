@@ -249,3 +249,8 @@ color: black; }
     max-height: 80vh;
     min-height: 80vh;
 }
+
+.hover-bold:hover {
+    font-weight: bold;
+    transition: 0.5s;
+}
