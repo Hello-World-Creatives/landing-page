@@ -174,8 +174,8 @@ section.content {
     display: grid;
     place-items: center;
     align-content: center;
-    max-width: 50vw;
-    min-height: 100vh;
+    max-width: 70vw;
+    min-height: 80vh;
     min-width: 40vw;
     text-align: justify;
 }
@@ -183,7 +183,7 @@ section.content {
 .d-right {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-40%);
+    transform: translateX(-45%);
     transition: all 2500ms;
 }
 
@@ -240,4 +240,11 @@ color: black; }
     .navbar-nav {
         margin-top: 20px;
     }
+}
+
+.welcome-page-img {
+    margin-left: -8vw;
+    margin-top: 24vh;
+    max-height: 80vh;
+    min-height: 80vh;
 }
