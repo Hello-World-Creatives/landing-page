@@ -254,3 +254,7 @@ color: black; }
     font-weight: bold;
     transition: 0.5s;
 }
+
+.slogan {
+    font-size: 20px;
+}
