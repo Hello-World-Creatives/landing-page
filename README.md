@@ -19,7 +19,7 @@ git status
 git add .
 ```
 ```
-git commit -m 'Your Massege'
+git commit -m 'Your Messege'
 ```
 ```
 git push origin 'Branch Name'
